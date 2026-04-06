@@ -56,8 +56,10 @@ impl Sentinel for GridSentinel {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Initialize the Sentinel with Active Surveillance enabled.
+    // 1. Initialize the Configuration
     let config = SentinelConfig::default();
+    
+    // 2. Initialize the Sentinel (config is MOVED here)
     let sentinel = Arc::new(GridSentinel { config });
 
     println!("------------------------------------------------------------------");
@@ -66,13 +68,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("------------------------------------------------------------------");
 
     // SIMULATION: High-Volume Scanning Event (e.g., European Hub IP Surge)
-    // This represents the real-world cloning and access patterns observed.
     let suspect_pulse = SentinelPulse {
         node_id: "AID-EU-NORTH-SCANNER-88".to_string(),
         timestamp_ns: 1710345600000,
-        pulse_entropy: 0.94, // Abnormally high entropy (Signature of Code Audit/Scan)
+        pulse_entropy: 0.94, 
         rttp_header_hash: "0x8513235".to_string(),
-        is_sovereign: false, // Node failed RPKI tensor attestation
+        is_sovereign: false, 
         geographic_origin: "Northern Europe (Internet Hub)".to_string(),
     };
 
@@ -81,16 +82,18 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let current_status = sentinel.get_node_status(&suspect_pulse);
 
     if current_status == SentinelStatus::PathogenDetected || awareness_score < 0.2 {
-        // Trigger the RPKI (RFC-003) reflexive response.
         sentinel.trigger_quarantine(&suspect_pulse.node_id);
     } else {
         println!("✅ [SENTINEL] Pulse verified. Grid Homeostasis maintained.");
     }
 
-    // Keep the sentinel heart beating
+    // 3. Keep the sentinel heart beating
     loop {
         sleep(Duration::from_secs(60)).await;
-        if config.active_surveillance {
+        
+        // FIX: Accessing active_surveillance via the sentinel instance
+        // because the original 'config' variable was moved.
+        if sentinel.config.active_surveillance {
             println!("🔄 [SENTINEL] Sentinel Heartbeat: Analyzing Aicent.net background traffic...");
         }
     }
