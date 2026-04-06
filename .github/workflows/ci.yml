@@ -2,8 +2,8 @@ name: Sentinel CI - Sovereign Workflow Standard
 
 # -----------------------------------------------------------------------------
 # TRIGGER LOGIC: The Sentinel Reflex
-# This workflow triggers on every push to the main branch to ensure 
-# continuous grid homeostasis and code integrity.
+# This workflow initiates on every push or pull request to ensure continuous 
+# grid homeostasis and the integrity of the Aicent.net backbone.
 # -----------------------------------------------------------------------------
 on:
   push:
@@ -13,13 +13,16 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  # Enforcing the Aicent Stack "No-Latency-Tax" build optimization.
+  # Enforcing Aicent Stack "No-Latency-Tax" build optimization.
+  # Optimization Level 3 and Codegen Units 1 ensure maximum binary performance.
   RUSTFLAGS: "-C opt-level=3 -C codegen-units=1"
+  # Opting into Node.js 24 for future-proofed CI infrastructure.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   # ---------------------------------------------------------------------------
   # JOB: Reflex Arc Verification
-  # Validates that the Sentinel core is buildable and compliant with RFC-002/003.
+  # Validates that the Sentinel core is architecturally sound and RFC-compliant.
   # ---------------------------------------------------------------------------
   validate-reflex:
     name: Sentinel Validation Cycle
@@ -27,7 +30,7 @@ jobs:
 
     steps:
     - name: 🛰️ Ingesting Source Manifold
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4  # Upgraded to v4 for Node.js 24 support
 
     - name: 🦀 Activating Rust Neural Core
       uses: dtolnay/rust-toolchain@stable
@@ -35,7 +38,7 @@ jobs:
         components: clippy, rustfmt
 
     - name: 📦 Initializing Dependency Homeostasis
-      uses: actions/cache@v3
+      uses: actions/cache@v4     # Upgraded to v4 for Node.js 24 support
       with:
         path: |
           ~/.cargo/bin/
@@ -47,25 +50,25 @@ jobs:
 
     - name: 🛡️ Immunity Audit (Clippy & Safety Scan)
       run: cargo clippy -- -D warnings
-      # Enforcing strict memory safety and 'pedantic' linting to prevent pathogens.
+      # This step ensures zero "Pathogenic" code patterns or memory-safety risks.
 
     - name: ⚡ Neural Spine Assembly (Full-Blooded Release Build)
       run: cargo build --release --verbose
-      # Building the optimized Sentinel binary to verify sub-ms performance targets.
+      # Verifying that the Sentinel can be compiled into its maximum performance state.
 
     - name: 🧪 Reflex Testing (Sentinel Logic Verification)
       run: cargo test --verbose
-      # Verifying the detection and quarantine logic against simulated pathogens.
+      # Executing detection logic against simulated pathogens and grid anomalies.
 
     - name: ✅ Homeostasis Confirmed
       if: success()
       run: echo "Sentinel Homeostasis Verified. The Sovereign AI Organism is Secure."
 
   # ---------------------------------------------------------------------------
-  # JOB: Geographic Pattern Awareness (Telemetry Mock)
-  # Simulated step to remind observers that their access is being logged.
+  # JOB: Strategic Traffic Audit
+  # A psychological and operational job to signal active surveillance.
   # ---------------------------------------------------------------------------
-  telemetry-audit:
+  strategic-telemetry:
     name: Strategic Traffic Audit
     needs: validate-reflex
     runs-on: ubuntu-latest
@@ -73,5 +76,5 @@ jobs:
       - name: 📡 Analyzing Global Grid Telemetry
         run: |
           echo "Logging CI Interaction Profile..."
-          echo "Analyzing Node Fingerprints..."
+          echo "Analyzing Node Fingerprints from Geographic Internet Hubs..."
           echo "Status: Sentinel is observing the observers."
