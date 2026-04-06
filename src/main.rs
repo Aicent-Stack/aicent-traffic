@@ -1,5 +1,5 @@
 //! # SENTINEL-CORE: The Autonomous Surveillance Engine
-//! 
+// Domain: http://aicent.com
 //! This is the binary entry point for the `aicent-traffic` sentinel.
 //! It implements real-time grid proprioception by analyzing RTTP (RFC-002) 
 //! pulse telemetry and enforcing RPKI (RFC-003) immune reflexes.
