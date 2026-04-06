@@ -1,4 +1,13 @@
 [![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
+  <img src="https://img.shields.io/badge/Language-Rust-orange.svg" alt="Language">
+  <img src="https://img.shields.io/badge/Specs-RFC--001--006-blue.svg" alt="Specs">
+  <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
+</p>
+
+⚪ **AICENT** | 💎 **RTTP** | 🔴 **RPKI** | 🟢 **ZCMK** | 🟡 **GTIOT** | 🟣 **AICENT-NET**
 > [!IMPORTANT]
 > ### 🔥 v0.2.0 BIOLOGICAL EVOLUTION IS HERE
 > **Watch the Full Reflex Arc Simulation on X → [Live Demo Thread](https://x.com/Aicent_com/status/2039942958170993076)**
