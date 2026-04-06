@@ -1,0 +1,61 @@
+[package]
+name = "aicent-traffic"
+version = "0.1.0"
+authors = ["Aicent.com Organization"]
+edition = "2021"
+description = "Global Grid Intelligence & Strategic Sentinel Monitoring for the Aicent Stack"
+license = "Apache-2.0"
+repository = "https://github.com/Aicent-Stack/aicent-traffic"
+readme = "README.md"
+keywords = ["sovereign-ai", "sentinel", "telemetry", "rttp", "rpki"]
+categories = ["network-programming", "embedded", "cryptography"]
+
+# -----------------------------------------------------------------------------
+# DEPENDENCIES: The Biological Guts of the Sentinel
+# -----------------------------------------------------------------------------
+
+[dependencies]
+# High-performance asynchronous runtime for handling massive parallel telemetry pulses.
+# Vital for achieving sub-millisecond reflex analysis across the global grid.
+tokio = { version = "1.0", features = ["full"] }
+
+# Industrial-grade serialization framework for RFC-compliant Pulse-Frame parsing.
+# Used for extracting RTTP (RFC-002) headers and RPKI (RFC-003) watermarks.
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# High-performance hash maps for real-time AID (AI Identity) tracking.
+# Chosen for its efficiency in high-frequency node-reputation updates.
+indexmap = "2.0"
+
+# High-precision timekeeping for nanosecond-scale drift and reflex arc analysis.
+chrono = { version = "0.4", features = ["serde"] }
+
+# Lightweight logging facade to provide visibility into Sentinel detection events.
+log = "0.4"
+env_logger = "0.10"
+
+# -----------------------------------------------------------------------------
+# PROJECT STRUCTURE: The Neural Pathways
+# -----------------------------------------------------------------------------
+
+[lib]
+name = "aicent_traffic"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sentinel-core"
+path = "src/main.rs"
+
+# -----------------------------------------------------------------------------
+# OPTIMIZATION PROFILE: Eliminating the "Latency Tax"
+# -----------------------------------------------------------------------------
+
+# Release profile optimized for production-grade sentinel deployment.
+# We enforce LTO and maximum optimization to ensure zero-jitter telemetry.
+[profile.release]
+opt-level = 3           # Maximum speed optimization
+lto = true              # Link-Time Optimization for cross-crate efficiency
+codegen-units = 1       # Maximum optimization at the cost of compile time
+panic = "abort"         # Deterministic failure mode for sovereign systems
+strip = true            # Remove debug symbols to minimize the binary footprint
