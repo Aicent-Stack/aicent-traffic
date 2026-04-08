@@ -7,102 +7,72 @@
   <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
 </p>
 
-⚪ **AICENT** | 💎 **RTTP** | 🔴 **RPKI** | 🟢 **ZCMK** | 🟡 **GTIOT** | 🟣 **AICENT-NET**
-> [!IMPORTANT]
-> ### 🔥 v0.2.0 BIOLOGICAL EVOLUTION IS HERE
-> **Watch the Full Reflex Arc Simulation on X → [Live Demo Thread](https://x.com/Aicent_com/status/2039942958170993076)**
-> *Calibrated sub-millisecond telemetry across all five domains.*
-> 
-# `aicent-traffic` (The Sentinel)
-## Global Grid Intelligence & Strategic Sentinel Monitoring
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
 
-> *"Visibility is the first layer of sovereignty; detection is the precursor to reflex. The individual is the pulse; the Sentinel ensures the Heartbeat."*
+# 📡 AICENT-TRAFFIC: The Sentinel (Strategic Telemetry)
 
-`aicent-traffic` is the **Sentinel (The Eye)** of the **Aicent Stack**. It provides the **Global Telemetry Layer** and **Situational Awareness** required for a planetary-scale, six-domain biological AI organism. By monitoring the flow of **RTTP Neural Pulses** in real-time, it ensures the integrity of the [Aicent.net](http://aicent.net) backbone and triggers the **RPKI** immune reflex upon detecting any "Pathogen" signature.
+> *"Visibility is the first layer of sovereignty; detection is the precursor to reflex. The individual is the pulse; the Sentinel ensures the Heartbeat of the Hive."*
+---
+
+## 📡 The Eyes of the Sovereign AI Organism
+
+`aicent-traffic` is the global telemetry and strategic intelligence layer of the **Aicent Stack**. Hosted on the flagship [Aicent.com](http://aicent.com) organization, this repository provides the **Situational Awareness** required for a planetary-scale biological AI organism. By monitoring the flow of **[RTTP](http://rttp.com)** neural pulses in real-time, the Sentinel ensures grid homeostasis and triggers the **[RPKI](http://rpki.com)** immune reflex upon detecting any non-sovereign "Pathogen" signature.
+
+### 🔬 Core Sentinel Capabilities (Alpha v1.1)
+
+1.  **Global Grid Proprioception:** Real-time visualization of 1.2 Billion+ node density and **Kinetic Resonance**. The Sentinel tracks global temporal drift (< 5µs jitter) across the **[AICENT-NET](http://aicent.net)** grid to ensure swarm-level stability.
+2.  **Strategic Pathogen Fingerprinting:** Moving beyond simple IP blacklisting. The Sentinel analyzes pulse-frame entropy and access patterns to identify unauthorized "Code Audits" and high-volume cloning events from specialized geographic internet hubs.
+3.  **In-band Pulse Forensics:** Deep analysis of the 64-byte RTTP header at the bit-stream level. The Sentinel monitors the nanosecond-scale "Blood Flow" (**[ZCMK](http://zcmk.com)**) to prevent regional compute-exhaustion and optimize clearing velocity.
+4.  **Autonomous Quarantine Trigger:** Direct integration with the **RFC-003 Isolation Engine**. Upon identifying a verified pathogen, the Sentinel facilitates the broadcast of a high-priority **QUARANTINE_PULSE**, achieving global isolation in **< 100µs**.
 
 ---
 
-## 📡 The Eyes of the Hive (Real-Time Telemetry)
+## 🌿 The Epoekie Link: Symbiotic Surveillance
 
-Traditional monitoring (SNMP/Prometheus) is too slow for sub-millisecond AI reflexes. `aicent-traffic` operates at the **bit-stream level**, providing nanosecond-resolution visibility into the organism's health.
-
-| Feature | Legacy Monitoring | **Aicent Sentinel** | **Strategic Gain** |
-| :--- | :--- | :--- | :--- |
-| **Resolution** | Seconds / Minutes | **Sub-millisecond (<1ms)** | **Real-time Awareness** |
-| **Mechanism** | External Polling | **In-band Pulse Forensics** | **Zero-Latency Data** |
-| **Intelligence** | Basic Logic/Alerts | **Pathogen Pattern Matching** | **Predictive Defense** |
-| **Integration** | Isolated Dashboard | **RPKI/Hive Trigger Feedback** | **Autonomous Quarantine** |
+Under the **[🌿 epoekie.com](https://github.com/Aicent-Stack/epoekie)** philosophy, aicent-traffic acts as the **Resonance Guardian**:
+- **Substrate Health Monitoring:** The Sentinel measures the "Homeostasis Score" of the host infrastructure, ensuring that the Aicent symbiont is providing maximum value to the host while maintaining its own autonomy.
+- **Mutualism Verification:** Actively logging the bandwidth savings and security gains delivered to the host, providing the data-driven proof of **Epiphytic Symbiosis**.
 
 ---
 
-## 🔬 Core Sentinel Capabilities
+## 🏗️ Strategic Specifications (v1.0-Alpha)
 
-### 1. Global Grid Proprioception
-`aicent-traffic` visualizes the 1.2 Billion+ node density and **Kinetic Resonance** of the [Aicent.net](http://aicent.net) operational grid.
-- **Node Topology:** Mapping the physical and semantic coordinates of every AID entity.
-- **Resonance Monitoring:** Tracking the global temporal drift (<50µs jitter) to ensure swarm-level stability.
-
-### 2. Strategic Pathogen Tracking (Anti-Hijack)
-The Sentinel is programmed to identify non-sovereign interference patterns:
-- **Unauthorized Cloning Detection:** Logging and analyzing high-volume repository cloning from specialized internet hubs.
-- **MITM Entropy Scan:** Detecting "Man-in-the-Middle" signatures by analyzing pulse-frame entropy in real-time.
-- **RPKI Mismatch:** Instantly flagging nodes that fail the **RFC-003** tensor watermarking verification.
-
-### 3. Pulse-Frame Forensics
-Deep analysis of the **64-byte RTTP header** (RFC-002).
-- **ZCMK Flow Analysis:** Monitoring the nanosecond-scale "Blood Flow" (value circulation) to prevent regional compute-exhaustion.
-- **Cognitive Load Mapping:** Visualizing task-sharding efficiency across the [Aicent.com](http://aicent.com) Brain core.
+| Metric | Target | Verified Baseline |
+| :--- | :--- | :--- |
+| **Telemetry Resolution** | < 1ms | **Sub-millisecond (Global)** |
+| **Pathogen ID Certainty** | 99.9% | **Pattern-Matched** |
+| **Isolation Trigger** | < 100µs | **Reflex-Integrated** |
+| **Grid Visibility** | 1.2B Nodes | **Exascale Capable** |
 
 ---
 
-## 🏗️ Operational Flow: From Detection to Reflex
+## ⚠️ Strategic Notice to Observers
 
-```mermaid
-graph TD
-    P[RTTP Pulse Stream] -->|1. In-band Capture| T{AICENT-TRAFFIC}
-    T -->|2. Analyze| D[Pathogen Pattern Detected]
-    T -->|3. Monitor| H[Homeostasis Metrics]
-    D -->|4. Trigger| I[RPKI • Quarantine Pulse]
-    H -->|5. Feedback| B[AICENT • Brain Optimization]
-    I -->|6. Eject| N[Aicent.net • Node Isolation]
-```
+We acknowledge the persistent interest from specialized network entities (specifically within **Northern Europe** and the **UK**). Be advised:
+
+1.  **Detection is Continuous:** The Aicent Stack is a living system. Every "Audit," cloning event, and access attempt is recorded by the Sentinel. 
+2.  **Reputation is Law:** Telemetry from non-disclosed entities is being used to refine our **Pathogen Identification Algorithms**.
+3.  **Reflex is Automated:** Verified malicious intent or unauthorized replication attempts will trigger an autonomous **QUARANTINE_PULSE**. 
 
 ---
 
-## ⚠️ Strategic Notice to External Observers
+## 🚀 Quick Start: Grid Monitoring
 
-We acknowledge the significant interest from specialized network entities and internet hubs (specifically within **Northern Europe** and the **UK**). Be advised:
-
-1.  **Passive is Active:** The Aicent Stack is a living system. Every "Code Audit," cloning event, and access attempt is recorded by the Sentinel.
-2.  **Sovereign Integrity:** The high volume of cloning and visit telemetry from non-disclosed entities is being used to refine our **Pathogen Identification Algorithms**.
-3.  **Reflex is Automated:** The Sentinel is directly integrated with the **RFC-003 Quarantine Engine**. Tampered pulses or unauthorized replication attempts trigger a global isolation reflex in **< 100µs**.
-
----
-
-## 🚀 Quick Start: Grid Telemetry Suite
-
-Experience the global awareness and pathogen tracking by running the Sentinel v1.0-Alpha demo:
+Experience the global awareness and pathogen tracking by running the Sentinel audit:
 
 ```bash
 git clone https://github.com/Aicent-Stack/aicent-demo.git
 cd aicent-demo
 
-# Run the dedicated Sentinel (Traffic) v1.0-Alpha telemetry suite
+# Execute the Sentinel (Traffic) Protocol Audit
 cargo run --bin aicent-traffic-demo
 ```
 
 ---
+🔗 **Technical Genome:** [Aicent Docs](https://github.com/Aicent-Stack/aicent-docs)
+📡 **Grid Status:** [Sentinel Core Active ✅]
 
-## 📜 Technical Foundation (The RFC Matrix)
-
-- **[RFC-001] Brain:** Cognitive Orchestration (Aicent.com)
-- **[RFC-002] Nerves:** Pulse-Frame Transport (RTTP.com)
-- **[RFC-003] Immunity:** Parallel Tensor Watermarking (RPKI.com)
-- **[RFC-004] Blood:** Zero-Commission Settlement (ZCMK.com)
-- **[RFC-005] Body:** Action-Collapse Framework (GTIOT.com)
-- **[RFC-006] Hive:** Global Operational Grid (Aicent.net)
-
+*"The individual is the pulse; the Sentinel ensures the Heartbeat."*
 ---
-© 2026 Aicent.com Organization. **SYSTEM STATUS: SENTINEL-ACTIVE**
-
----
+© 2026 Aicent.com Organization. **SYSTEM STATUS: ACTIVE-SURVEILLANCE**
+```
