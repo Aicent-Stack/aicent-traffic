@@ -2,6 +2,7 @@
 ## Real-Time Homeostasis Observability & Traffic Triage [v1.2.1-Alpha]
 
 [![Ecosystem Vitality](https://github.com/Aicent-Stack/aicent-traffic/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-traffic/actions/workflows/rust-ci.yml)
+
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Sentinel%20Active-blue.svg" alt="Status">
   <img src="https://img.shields.io/badge/Version-v1.2.1--Alpha-blue.svg" alt="Version">
