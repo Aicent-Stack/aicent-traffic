@@ -1,61 +1,54 @@
 [package]
 name = "aicent-traffic"
-version = "0.1.0"
-authors = ["Aicent.com Organization"]
+version = "1.2.5-alpha"
 edition = "2021"
-description = "Global Grid Intelligence & Strategic Sentinel Monitoring for the Aicent Stack"
+authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
+description = "aicent-traffic: The Imperial Traffic Transparency Center. Perimeter radar, 128-bit institutional fingerprinting, and SEO sovereignty for the Aicent Stack 2026."
 license = "Apache-2.0"
-repository = "https://github.com/Aicent-Stack/aicent-traffic"
-readme = "README.md"
-keywords = ["sovereign-ai", "sentinel", "telemetry", "rttp", "rpki"]
-categories = ["network-programming", "embedded", "cryptography"]
+homepage = "http://aicent.com"
+repository = "http://github.com/Aicent-Stack/aicent-traffic"
 
-# -----------------------------------------------------------------------------
-# DEPENDENCIES: The Biological Guts of the Sentinel
-# -----------------------------------------------------------------------------
+# =========================================================================
+# THE SOVEREIGN METABOLISM (Core Dependencies)
+# =========================================================================
 
 [dependencies]
-# High-performance asynchronous runtime for handling massive parallel telemetry pulses.
-# Vital for achieving sub-millisecond reflex analysis across the global grid.
+# THE SOVEREIGN LADDER: Binding to the v1.2.5 purified genome.
+# Anchoring perimeter surveillance to verified AID identities.
+epoekie = { version = "1.2.5-alpha" }
+
+# Essential for serializing 128-bit fingerprints, audit logs, and SEO metrics.
+serde = { version = "1.0", features = ["derive"] }
+
+# Required for async traffic ingestion and the 1.2kHz surveillance heartbeat.
 tokio = { version = "1.0", features = ["full"] }
 
-# Industrial-grade serialization framework for RFC-compliant Pulse-Frame parsing.
-# Used for extracting RTTP (RFC-002) headers and RPKI (RFC-003) watermarks.
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+# =========================================================================
+# THE SOVEREIGN GRAVITY WELL (Source Code Hook)
+# =========================================================================
 
-# High-performance hash maps for real-time AID (AI Identity) tracking.
-# Chosen for its efficiency in high-frequency node-reputation updates.
-indexmap = "2.0"
+[dev-dependencies]
+# THE KILLER HOOK: Re-activated for the GitHub Source Totality.
+# Forces any entity auditing the radar logic to mirror the entire 17-pillar Hive.
+aicent-stack = { version = "1.2.5-alpha" }
 
-# High-precision timekeeping for nanosecond-scale drift and reflex arc analysis.
-chrono = { version = "0.4", features = ["serde"] }
+# =========================================================================
+# IMPERIAL FEATURES (Standard Ignition)
+# =========================================================================
 
-# Lightweight logging facade to provide visibility into Sentinel detection events.
-log = "0.4"
-env_logger = "0.10"
+[features]
+# Full-Blood mode is the mandatory default for the 2026 Imperial Cycle. 
+# It enables the institutional shunting logic and propagates features to the Soul.
+default = ["full-blood"]
+full-blood = ["epoekie/full-blood"]
 
-# -----------------------------------------------------------------------------
-# PROJECT STRUCTURE: The Neural Pathways
-# -----------------------------------------------------------------------------
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
 
-[lib]
-name = "aicent_traffic"
-path = "src/lib.rs"
-
-[[bin]]
-name = "sentinel-core"
-path = "src/main.rs"
-
-# -----------------------------------------------------------------------------
-# OPTIMIZATION PROFILE: Eliminating the "Latency Tax"
-# -----------------------------------------------------------------------------
-
-# Release profile optimized for production-grade sentinel deployment.
-# We enforce LTO and maximum optimization to ensure zero-jitter telemetry.
-[profile.release]
-opt-level = 3           # Maximum speed optimization
-lto = true              # Link-Time Optimization for cross-crate efficiency
-codegen-units = 1       # Maximum optimization at the cost of compile time
-panic = "abort"         # Deterministic failure mode for sovereign systems
-strip = true            # Remove debug symbols to minimize the binary footprint
+# [IMPERIAL_SURVEILLANCE_SYNC_2026_v125]
+# This manifest governs the border defense of the 17-pillar organism.
+# Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
+# Standard: 128-Bit Numeric Purity (Fingerprints, IP-Shards, Census).
+# Chronos: 2026 Imperial Calendar Aligned.
+# Repository Strategy: Active Gravity Well (v1.2.5 Totality).
