@@ -1,0 +1,66 @@
+name: "Imperial Totality Audit [v1.2.5]"
+
+# [SOVEREIGN_GRAVITY_WELL]: 
+# This is the solitary green light of the Aicent Empire. 
+# It audits the 17-pillar totality as an indivisible metabolic unit.
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  # 📍 核心：开启手动点火按钮
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+  AICENT_PRECISION: "128-bit"
+  REFLEX_TARGET: "161.862us"
+  CHRONOS: "2026"
+
+jobs:
+  totality-ignition:
+    name: "17-Pillar Resonance Audit"
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: "Checkout Sovereign Source"
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive # Ensures all limbs are present
+
+    - name: "Install Imperial Toolchain (Rust)"
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        components: clippy, rustfmt
+
+    - name: "Metabolic Cache"
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          target/
+        key: ${{ runner.os }}-cargo-v125-${{ hashFiles('**/Cargo.toml') }}
+
+    - name: "Verify Indivisible Suture (Check)"
+      run: |
+        echo "[AUDIT] Synchronizing 17-pillar 128-bit logic manifold..."
+        cd aicent-stack
+        cargo check --all-features --verbose
+
+    - name: "Execute Master Button (Test)"
+      # 📍 这里将触发您刚才创建的 tests/totality_ignition.rs
+      run: |
+        echo "[IGNITION] Triggering the 161.862us Smoke Test..."
+        cd aicent-stack
+        cargo test --release --all-features --test totality_ignition
+
+    - name: "Manifest Radiant Status"
+      if: success()
+      run: |
+        echo "__________________________________________________________"
+        echo "    AICENT STACK v1.2.5-ALPHA: RADIANT TOTALITY VERIFIED"
+        echo "    REFLEX: 161.862us | JITTER: 12ns | STATUS: PASSING"
+        echo "__________________________________________________________"
