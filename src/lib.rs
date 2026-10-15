@@ -104,7 +104,7 @@ impl PerimeterAuditor {
         ip.len() as u128 ^ 0xA1A1_B2B2_C3C3_D4D4_E5E5_F6F6_0707_0808
     }
 
-    /// Dispatches perimeter telemetry to the PICSI (RFC-014) manifold.
+    /// Dispatches perimeter telemetry to the PICSI (AICENT-014) manifold.
     pub fn export_to_picsi_dashboard(&self) -> Vec<TrafficEvent_128> {
         self.event_history.iter().cloned().take(100).collect()
     }

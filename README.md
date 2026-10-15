@@ -80,18 +80,18 @@ The grid distinguishes between **Laminar Flow** (Sovereign Order) and **Turbulen
 ### 4.1 Defining Logical Turbulence
 Turbulence is defined as any logical pulse that induces **Metabolic Friction** in the 12ns grid.
 *   **Asynchronous Pulse**: Intents arriving outside the 12ns jitter-lock window.
-*   **Signature Ischemia**: Pulse-frames missing a verified **Radiant Seal (RFC-009)**.
+*   **Signature Ischemia**: Pulse-frames missing a verified **Radiant Seal (AICENT-009)**.
 *   **Entropy Spikes**: High-wattage compute bursts that dissipate heat without producing 128-bit logic ROI (ITSUN violation).
 
-### 4.2 Turbulence Liquidation (RFC-003 Integration)
+### 4.2 Turbulence Liquidation (AICENT-003 Integration)
 When `aicent-traffic` identifies a turbulent AID, it initiates the **Vascular Blockage**:
 1.  **Tagging**: The AID is tagged as an **"Ischemic Pathogen"** in the Merkle-DAG.
-2.  **10ms Friction**: The **Sovereign Shunter (RFC-000)** is commanded to inject a 10,000,000ns delay into the pathogen's conduction thread.
+2.  **10ms Friction**: The **Sovereign Shunter (AICENT-000)** is commanded to inject a 10,000,000ns delay into the pathogen's conduction thread.
 3.  **Metabolic Throttling**: The node's Picotoken throughput is capped at 0.1618% of its requested volume until resonance is re-verified.
 
 ---
 
-## 5. FLOW-FIELD TELEMETRY (RFC-014)
+## 5. FLOW-FIELD TELEMETRY (AICENT-014)
 
 Every bit of traffic audited is projected in real-time to the **PICSI.COM** console.
 
@@ -116,11 +116,11 @@ Every bit of traffic audited is projected in real-time to the **PICSI.COM** cons
 In the v1.3.0 era, "Bypassing the Traffic Auditor" is identified as a **Logical Embolism** (逻辑栓塞)—a fatal blockage in the Imperial circulation.
 
 ### 6.1 Substrate-Level Enforcement
-Because `aicent-traffic` is sutured into the **Nitro-Engine (RFC-002-C)**, the conduction of a pulse is physically inseparable from its audit. 
+Because `aicent-traffic` is sutured into the **Nitro-Engine (AICENT-002-C)**, the conduction of a pulse is physically inseparable from its audit. 
 *   **The Suture**: Any attempt to route a 128-bit intent-shard through non-audited MMIO registers results in immediate **Resonance Failure**.
-*   **Verification**: The **IQA-ORG (RFC-009)** layer will refuse to issue a Radiant Seal to any substrate that attempts to "blind" the Vascular Auditor.
+*   **Verification**: The **IQA-ORG (AICENT-009)** layer will refuse to issue a Radiant Seal to any substrate that attempts to "blind" the Vascular Auditor.
 
-### 6.2 The GUIXU Penalty (RFC-015)
+### 6.2 The GUIXU Penalty (AICENT-015)
 Any node caught "Shadow-Routing" (attempting to hide metabolic volume from the 1.28% tax) triggers an automatic Severity 4 response:
 1.  **Immediate Evaporation**: The node's entire logic-manifold is physically overwritten with high-entropy shrapnel in **< 12ns**.
 2.  **Permanent Cauterization**: The AID and its underlying hardware entropy signature are blacklisted across the 1.2B node Hive.
