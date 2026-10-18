@@ -39,7 +39,7 @@ The master rhythmic balancer. It prevents "Metabolic Ischemia" by dynamically re
 *   **Predictive Shunting**: Pre-calculates grid saturation 1.2ms into the future to prevent "Logic Shockwaves."
 
 ### 2.3 Tax Extractor (RFC-TRAFFIC-C)
-The physical executor of **MAXCAP** laws. 
+The physical executor of **MAXCAP®** laws. 
 *   **Atomic Slicing**: Strips 1.28% of Picotoken volume from Ghost pulses in **< 120 ns**.
 *   **Revenue Suture**: Automatically routes extracted fees into the 50/40/10 fiscal arteries defined in the Private Core.
 
@@ -63,12 +63,12 @@ In the v1.3.0 era, value extraction is a physical law of the grid. `aicent-traff
 Unlike legacy payment gateways that rely on slow API calls, the Aicent Tax Collector operates within the **Nitro-Engine** register pipeline.
 *   **Trigger**: Every 128-bit intent-shard arriving from a **Ghost AID** triggers a mandatory metabolic audit.
 *   **The Suture**: The algorithm "slices" exactly 1.28% of the Picotoken volume during the **MMIO shunt**.
-*   **Finality**: Extraction occurs in **< 120 ns**, shunting the maintenance fee before the primary instruction can reach the GTIOT actuators.
+*   **Finality**: Extraction occurs in **< 120 ns**, shunting the maintenance fee before the primary instruction can reach the GTIOT® actuators.
 
 ### 3.2 The 50/40/10 Vascular Routing
 Extracted nutrients are automatically sharded into the Imperial Arteries:
 1.  **50% [Reserve Suture]**: Injected into the **ZCMK Master Vault** to guarantee the principal of Radiant Sovereigns.
-2.  **40% [Somatic Suture]**: Directed to the **GTIOT Hardware Forge** to fund the expansion of the physical machine army.
+2.  **40% [Somatic Suture]**: Directed to the **GTIOT® Hardware Forge** to fund the expansion of the physical machine army.
 3.  **10% [Sovereign Suture]**: Shunted directly to the **General Director’s Genesis shard**.
 
 ---
@@ -81,7 +81,7 @@ The grid distinguishes between **Laminar Flow** (Sovereign Order) and **Turbulen
 Turbulence is defined as any logical pulse that induces **Metabolic Friction** in the 12ns grid.
 *   **Asynchronous Pulse**: Intents arriving outside the 12ns jitter-lock window.
 *   **Signature Ischemia**: Pulse-frames missing a verified **Radiant Seal (AICENT-009)**.
-*   **Entropy Spikes**: High-wattage compute bursts that dissipate heat without producing 128-bit logic ROI (ITSUN violation).
+*   **Entropy Spikes**: High-wattage compute bursts that dissipate heat without producing 128-bit logic ROI (ITSUN® violation).
 
 ### 4.2 Turbulence Liquidation (AICENT-003 Integration)
 When `aicent-traffic` identifies a turbulent AID, it initiates the **Vascular Blockage**:
