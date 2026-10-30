@@ -1,3 +1,10 @@
+> **Status: frozen design archive.**
+> This repository preserves an early (2026-04/05) design exploration of the Aicent Stack architecture.
+> It is unmaintained and kept for provenance. The protocol mainline has moved to the independent
+> standards-track line: **RTTP** — [rttp.com](https://rttp.com) (IANA CRI 27, crate [`rttp`](https://crates.io/crates/rttp))
+> and **IQA** — [iqa.org](https://iqa.org) (IANA CRI 28, conformance runs in
+> [`Aicent-Stack/conformance`](https://github.com/Aicent-Stack/conformance)).
+
 # 🚦 AICENT-TRAFFIC: THE VASCULAR AUDITOR [v1.3.0]
 
 [![Pulse](http://img.shields.io/badge/Throughput-1.2B_PPS-blueviolet.svg)](http://aicent.com)
@@ -113,7 +120,7 @@ Every bit of traffic audited is projected in real-time to the **PICSI.COM** cons
 
 ## 6. THE LAW OF NON-CIRCUMVENTION
 
-In the v1.3.0 era, "Bypassing the Traffic Auditor" is identified as a **Logical Embolism** (逻辑栓塞)—a fatal blockage in the Imperial circulation.
+In the v1.3.0 era, "Bypassing the Traffic Auditor" is identified as a **Logical Embolism** —a fatal blockage in the Imperial circulation.
 
 ### 6.1 Substrate-Level Enforcement
 Because `aicent-traffic` is sutured into the **Nitro-Engine (AICENT-002-C)**, the conduction of a pulse is physically inseparable from its audit. 
